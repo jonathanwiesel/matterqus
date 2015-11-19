@@ -1,0 +1,37 @@
+{
+  "name": "Matterqus Sample",
+  "description": "Disqus monitor and notification sender to Mattermost",
+  "repository": "https://github.com/jonathanwiesel/matterqus",
+  "keywords": [
+    "slack",
+    "mattermost",
+    "disqus",
+    "blog"
+  ],
+  "env": {
+    "MATTERQUS_DISQUS_API_KEY": "",
+    "MATTERQUS_DISQUS_API_SECRET": "",
+    "MATTERQUS_DISQUS_ACCESS_TOKEN": "",
+    "MATTERQUS_DISQUS_FORUM": {
+      "description": "Disqus forum(s) to check, specified by shortname, comma separated."
+    },
+    "MATTERQUS_MATTERMOST_WEBHOOK": {
+      "description": "URL of your Incoming WebHook in Mattermost."
+    },
+    "MATTERQUS_INTERVAL": {
+      "required": false,
+      "description": "Number of seconds between each check (default 60).",
+      "value": "60"
+    },
+    "MATTERQUS_DISQUS_LIMIT": {
+      "required": false,
+      "description": "The number of recent comments to check (default 25, max 100).",
+      "value": "25"
+    },
+    "MATTERQUS_MATTERMOST_MENTION": {
+      "required": false,
+      "description": "Users in Mattermost channel to mention when notification arrives, comma separated.",
+      "value": ""
+    }
+  }
+}

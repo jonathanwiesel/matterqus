@@ -1,0 +1,41 @@
+{
+  "name": "matterqus",
+  "description": "New Disqus comment notifier for Mattermost",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jonathan Wiesel",
+    "email": "jonathanwiesel@gmail.com",
+    "url": "https://github.com/jonathanwiesel"
+  },
+  "contributors": [{
+    "name": "Joakim Stai",
+    "email": "joakimstai@gmail.com",
+    "url": "https://github.com/joakim"
+  }],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonathanwiesel/matterqus.git"
+  },
+  "keywords": [
+    "disqus",
+    "slack",
+    "mattermost"
+    "comment",
+    "api",
+    "notify"
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "licenses": [{
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+  }],
+  "engines": {
+    "node": "4.0.0"
+  },
+  "dependencies": {
+    "disqus": "0.1.0",
+    "node-slack": "0.0.7"
+  }
+}
