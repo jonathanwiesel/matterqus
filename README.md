@@ -51,7 +51,7 @@ Some more configuration options for Disqus and Mattermost are available in confi
 
 This application was built using:
 * [disqus](https://github.com/hay/node-disqus)
-* [node-slack](https://github.com/xoxco/node-slack)
+* [node-mattermost](https://github.com/jonathanwiesel/node-mattermost)
 
 Based on:
 * [slackus](https://github.com/jonathanwiesel/slackus)
