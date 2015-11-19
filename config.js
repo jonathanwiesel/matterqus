@@ -27,7 +27,7 @@ config.mattermost.mention = process.env.MATTERQUS_MATTERMOST_MENTION;
 
 // Additional options for messages posted to Mattermost (optional).
 // Overrides the webhook's settings, see Setup Instructions for your webhook.
-config.slack.options = {
+config.mattermost.options = {
   // mattermost examples:
   // username: 'Santa Claus',
   // icon_emoji: ':santa:',
